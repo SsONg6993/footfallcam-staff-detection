@@ -1,17 +1,16 @@
-__pycache__/
-*.pyc
-.venv/
+.vscode/
+weights/
+yolo26n.pt
+yolo26s.pt
+custom_bytetrack.yaml
 
 runs/
 work/
+__pycache__/
+*.pyc
 
+outputs/final/
 outputs/topdown_person_dataset_v1/
 outputs/badge_dataset_v2/
-outputs/final/
 
 *.mp4
-
-# Keep submission outputs
-!outputs/submission/
-!outputs/submission/staff_frames_xy.csv
-!outputs/submission/staff_frame_ranges.txt
